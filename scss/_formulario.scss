@@ -1,0 +1,53 @@
+form {
+    background-color: $color-back;
+    padding: 40px;
+    border-radius: 20px;
+    width: 50%;
+    box-shadow: 0px 8px 8px   rgba(0, 0, 0, 0.3); /* Definición de la sombra */
+
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"], textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .imgForm {
+    box-shadow: 0px 8px 8px  rgba(0, 0, 0, 0.3); /* Definición de la sombra */
+    height: 700px;
+  }
+  
+  .btn-contacto {
+    border: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s;
+  float: right;
+  }
+
+  .logoms-contacto {
+
+    width: 60%;
+   height: 40%;
+    align-items: end;
+  }
+
+  .mainForm {
+    background-image: url(/media/Diseño\ sin\ título.jpg);
+  }

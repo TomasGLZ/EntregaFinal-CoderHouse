@@ -1,0 +1,32 @@
+
+
+h1{
+  background-color: $color-back;
+  color: #fafafa;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 8px;
+  font-size: 2rem;
+  color: #747474;
+}
+  
+  /* LOGO DE WHATSAPP */
+  
+  .logoWhatsapp {
+    width: 5rem;
+    position: fixed;
+    bottom: 40px;
+    right: 1.5rem;
+    cursor: pointer;
+    transition: all 0.1s;
+    &:hover {
+      width: 6rem;
+    }
+  }
+  
+  /* FOOTER */
+  
+  .footerms {
+    background-color: $color-back;
+  }
+  

@@ -1,0 +1,8 @@
+//mixin
+
+@mixin titulos {
+    background-color: $color-back;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 8px;
+}
